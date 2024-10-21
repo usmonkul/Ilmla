@@ -1,0 +1,124 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.container {
+    max-width: 1100px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 0rem;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu-item {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.social {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.tel {
+    padding: 5px 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-right > img {
+    width: 100%;
+}
+
+.sarlavhacha {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: goldenrod;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.matn {
+    font-size: 1.8rem;
+    color: gray;
+}
+
+.tugmalar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.tugma {
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tugma-out {
+    background-color: white;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: goldenrod;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
